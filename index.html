@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!--Kullanıcının arama motorunda sitemizi arattığında daha kolay bulabilmesi için meta etiketlerini kullandık-->
+    <meta charset="utf-8">
+    <meta name="description" content="WebSitem">
+    <meta name="author" content="Berkan">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="viewport" content="widht=device-width,initial-scale=1.0"><!--Sitemizin responsive yani telefon ve tablet için uyumlu olması adına böyle bir etiket ekledik -->
+    
+    <title>ARABALAR - ANASAYFA </title><!--Ana sayfamızın titleını yani sekmesinde görülecek kısmı tanımladık title etiketi ile-->
+
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css"><!-- css dosyalarımızı aktif ettik link rel etiketi ile-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+      
+      <header><!-- header etiketimizi açtık sayfamızın headerini yapmak için -->
+          <div class="container"><!--div etiketimizi açtık sayfanın tamamını kapsamayan alanlar için bir div classı belirledik adıda container-->
+              <div class="logo"><!--bu divin içerisine bir logo bölümü ekliyeceğimiz için logo adında bir div classı daha açtık-->
+                  <a href="index.html"></a><!--logoya tıkladığımız zaman index.html sayfasına gitsin-->
+              </div>
+              <div class="menu"><!--menü içinde bir div etiketi oluşturuyoruz ve class ismi olarak menu ismini veriyoruz-->
+                  <ul><!--bir liste oluşturucaz-->
+                      <li><a href="index.html">ANASAYFA</a></li>
+                      <li><a href="arabalar.html">ARABALAR</a></li>
+                      <li><a href="hakkında.html">HAKKINDA</a></li>
+                      <li><a href="iletisim.html">ILETISIM</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </header>
+      <!--MAİN SECTION --><!--Her bölümü ayrı bir şekilde tanımlıcaz bu main bölümümüzü tanımladığmıız kısım-->
+      <section id="mainSlider" class="slider">
+           <div id="mainCaption" class="caption">
+               <h1>ARABALARI İNCELEYELİM</h1>
+               <p>Bu bölümde size arabalarla ilgili detaylı açıklamalar vereceğiz</p>
+           </div>
+      </section>
+       <!--FEATURE SECTION --><!--Buda Feature bölümümüzü yazdığımız kısım-->
+      
+       <section id="features" class="sectionArea">
+           <div class="featuresTop">
+               <h2 class="sectionHeader">OZELLIK SERVISI</h2>
+               <p>Bu bölümde size arabaların özelliklerine göre nasıl ayrıldığından bahsedeceğiz</p>
+           </div>
+           <div class="featuresBody">
+               <div class="container">
+                   <div class="col3">
+                       <div class="item">
+                           <div class="zoom">
+                             <img src="img/car1.jpg">  
+                           </div>
+                           <div class="itemText">
+                               <h3>Elektrikli Arabalar</h3>
+                               <p>Elektrikli otomobiller her geçen gün gündemde daha fazlayer almaya başladı. Kısa bir zaman içinde içten yanmalı motorlu kardeşlerinin yerini alacağı konuşulan elektrikli otomobillerin şimdilik en büyük soru işareti şarj noktaları ve menzilleri. </p>
+                               <a href="#" class="btnDetails">Detaylar</a>
+                           </div>
+                       </div>
+                   </div>
+                    <div class="col3">
+                       <div class="item">
+                           <div class="zoom">
+                             <img src="img/car2.jpg">  
+                           </div>
+                           <div class="itemText">
+                               <h3>Benzinli Arabalar</h3>
+                               <p>Yakıt olarak benzinle çalışan bu araçlarda benzinin havaya karışması sonucu yanma oluşuyor.</p>
+                               <a href="#" class="btnDetails">Detaylar</a>
+                           </div>
+                       </div>
+                   </div>
+                    <div class="col3">
+                       <div class="item">
+                           <div class="zoom">
+                             <img src="img/car3.jpg">  
+                           </div>
+                           <div class="itemText">
+                               <h3>Dizel Arabalar</h3>
+                               <p> Dizel daha büyük enerji yoğunluğuna sahip. Benzinli motorla karşılaştırıldığında dizelin enerji yoğunluğu yüzde 20 daha fazla. Biodizel üretiminde bin yıl boyunca ağaçlar etkilenmeyecek, karbonla kaplanmayacak ve fosilleşmeyecek. </p>
+                               <a href="#" class="btnDetails">Detaylar</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--PARÇA SECTION --><!--Buda Parallax bölümümüzü yazdığımız kısım-->
+       <section id="parallax" class="sectionArea">
+           <div class="parallaxTop">
+               <h2 class="sectionHeader">ARABA PARÇALARI</h2>
+               <p>Her arabanın ortalama 30 bin farklı parçası bulunuyor!</p> 
+           </div>
+           
+       </section>
+        <!--OTOMATİK VE MANUEL SECTION --><!--Buda otomatik ve manuel bölümümüzü yazdığımız kısım-->
+       <section id="engine" class="sectionArea">
+           <div class="engineTop">
+            <h2 class="sectionHeader">OTOMATİK VE MANUEL</h2>
+            <p>Otomatik arabalar ve Manuel arabalar</p>
+           </div>
+           <div class="engineBody">
+               <div class="container">
+                   <div class="col2">
+                       <div class="engineContainer">
+                         <img src="img/otomatik2.jpg" class="imageOver"> 
+                         <div class="engineOverlay">
+                             <div class="engineText">Otomatik</div>
+                         </div>
+                       </div>
+                   </div>
+                    <div class="col2">
+                       <div class="engineContainer">
+                         <img src="img/manuel.jpg" class="imageOver"> 
+                         <div class="engineOverlay2">
+                             <div class="engineText">Manuel</div>
+                         </div>
+                       </div>
+                   </div>
+                   
+               </div>
+               
+           </div>
+       </section>
+         <!--ENALT SECTION --><!--Buda enalt bölümümüzü yazdığımız kısım-->
+         <footer class="sectionArea">
+             <div class="container">
+                 <div class="col3">
+                     <div class="footerItem">
+                         <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                         <a href="index.html"></a>
+                         <p>Arabalar ve Özellikleri </p>
+                     </div>
+                 </div>
+                 <div class="col3">
+                     <div class="footerItem">
+                         <h3>LİNKLER</h3>
+                         <ul class="footerLinks">
+                              <li><a href="index.html">ANASAYFA</a></li>
+                              <li><a href="arabalar.html">ARABALAR</a></li>
+                              <li><a href="hakkında.html">HAKKINDA</a></li>
+                              <li><a href="iletisim.html">ILETISIM</a></li>
+                         </ul>
+                       
+                     </div>
+                 </div>
+                  <div class="col3">
+                     <div class="footerItem">
+                         <h3>BİZİMLE İLETİŞİME GEÇİN</h3>
+                         <ul class="socialLinks">
+                             <li><a href="#"><i class="demo-icon icon-facebook">&#xf300;</i></a></li>
+                             <li><a href="#"><i class="demo-icon icon-linkedin">&#xe801;</i></a></li>
+                             <li><a href="#"><i class="demo-icon icon-twitter">&#xe800;</i></a></li>
+                        </ul>
+                       
+                     </div>
+                 </div>
+             </div>
+         </footer>
+      
+  </body>
+
+</html>
+      

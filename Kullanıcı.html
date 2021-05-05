@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!--Kullanıcının arama motorunda sitemizi arattığında daha kolay bulabilmesi için meta etiketlerini kullandık-->
+    
+    
+    <title>FORM </title><!--Ana sayfamızın titleını yani sekmesinde görülecek kısmı tanımladık title etiketi ile-->
+    <meta charset="utf-8">
+    <meta name="description" content="Form Yapımı">
+    <meta name="author" content="Berkan ve Dorukhan">
+      
+      
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      
+      <button id="modalBtn" class="btn">GİRİS</button>
+      <div id="myModal" class="modal">
+          <div class="modalContent">
+              <div class="modalHeader">
+                  <span id="close" class="close">&#9747;</span>
+              </div>
+              <div class="modalBody">
+                  <div class="loginBox">
+                      <img src="img/avatar-icon-png-8.png" class="avatar">
+                      <h1>Giriş Formu</h1>
+                      <form>
+                          <p>Kullanıcı Adı</p>
+                          <input type="text" name="username" placeholder="Kullanici Adiniz">
+                          <p>Şifre</p>
+                          <input type="password" name="pasword" placeholder="Sifrenizi Giriniz">  
+                          <input type="submit" name="submit" value="Giris">
+                          <a href="#">Şifremi unuttum</a>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+   <script src="script.js"></script>   
+  </body>
